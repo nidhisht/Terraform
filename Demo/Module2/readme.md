@@ -2,7 +2,7 @@
 This script help you to provision Azure SQL and Azure Resource Group
 
 ## Pre-requisite
-Service Principal to be created on Azure (Azure Active Directory - App Registration)
+[Service Principal to be created on Azure](https://www.youtube.com/watch?v=IHHIXf39Igo&list=PLD7svyKaquTlE9dErhMazFhWbSSCfMP_4&index=8) (Azure Active Directory - App Registration)
 
 ## Note
 Modify [subscription_id](https://github.com/nidhisht/Terraform/blob/9f100f72a3e0867503d8d3396ea056fcb9a18454/Demo/Module2/Main.tf#L5), [client_id](https://github.com/nidhisht/Terraform/blob/9f100f72a3e0867503d8d3396ea056fcb9a18454/Demo/Module2/Main.tf#L6), client_secret & tenant_idto the actual values
