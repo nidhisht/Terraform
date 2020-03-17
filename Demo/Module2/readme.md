@@ -1,5 +1,5 @@
 # Provision Azure SQL using Terraform scripts
-This script help you to provision Azure SQL
+This script help you to provision Azure SQL and Azure Resource Group
 
 ## Pre-requisite
 Service Principal to be created on Azure (Azure Active Directory - App Registration)
