@@ -1,5 +1,5 @@
 # Provision Azure Resource Group using Terraform scripts
-This script help you to provision Resource Group on Azure
+This [script](https://github.com/nidhisht/Terraform/blob/master/Demo/Module1/main.tf) will help you to provision Resource Group on Azure
 
 ## Pre-requisite
 Service Principal to be created on Azure (Azure Active Directory - App Registration)
