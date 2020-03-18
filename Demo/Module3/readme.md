@@ -1,1 +1,18 @@
-# Module3
+# Provision Azure SQL using Terraform scripts (Optimized with Variables)
+This [script](https://github.com/nidhisht/Terraform/blob/master/Demo/Module2/Main.tf) will help you to provision Azure SQL and Azure Resource Group
+
+1. Provider details moved to Provider.tf file
+2. Subscription_id, client_id etc moved to .tfvars file
+
+## Pre-requisite
+[Service Principal to be created on Azure](https://www.youtube.com/watch?v=IHHIXf39Igo&list=PLD7svyKaquTlE9dErhMazFhWbSSCfMP_4&index=8) (Azure Active Directory - App Registration)
+
+## Note
+Modify [subscription_id](https://github.com/nidhisht/Terraform/blob/9f100f72a3e0867503d8d3396ea056fcb9a18454/Demo/Module2/Main.tf#L5), [client_id](https://github.com/nidhisht/Terraform/blob/9f100f72a3e0867503d8d3396ea056fcb9a18454/Demo/Module2/Main.tf#L6), client_secret & tenant_idto the actual values
+
+1. [subscription_id](https://github.com/nidhisht/Terraform/blob/9f100f72a3e0867503d8d3396ea056fcb9a18454/Demo/Module2/Main.tf#L5) can be get from Azure portal - Subscriptions
+
+2. [client_id](https://github.com/nidhisht/Terraform/blob/9f100f72a3e0867503d8d3396ea056fcb9a18454/Demo/Module2/Main.tf#L6), client_secret & tenant_id to fetch from Azure portal - Azure Active Directiory - App Registration
+
+## Reference
+[Terraform documentation](https://www.terraform.io/docs/providers/azurerm/r/sql_database.html)
